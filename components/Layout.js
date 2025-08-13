@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   const { user } = useAuth();
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-blue-700 text-white">
+      <header className="bg-slate-900 text-white shadow">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/" className="text-lg font-semibold">A&P Prep</Link>
           <nav className="space-x-4">
